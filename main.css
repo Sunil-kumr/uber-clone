@@ -1,0 +1,228 @@
+#section1{
+    /* border: 2px solid; */
+    height: 110vh;
+    background-color: #000;
+    color: #fff;
+}
+#section1>div{
+    /* border: 2px solid red; */
+    width: 76%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section1>div>div{
+    /* border: 2px solid green; */
+    height: 700px;
+    width: 550px;
+}
+#section1>div>div>div:first-child{
+    /* border: 2px solid; */
+    margin-top: 160px;
+}
+#section1>div>div>div>h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+#section1>div>div>div>input{
+    width: 400px;
+    padding: 14px;
+    border-radius: 5px;
+    color: #5E5E5E;
+    border: none;
+    font-size: 16px;
+}
+#section1>div>div>div>button{
+    padding: 16px 28px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+#section1>div>div+div>img{
+    height: 100%;
+    width: 100%;
+}
+#section2{
+    /* border: 2px solid; */
+    height: 100vh;
+}
+#section2>div{
+    /* border: 2px solid red; */
+    height: 75vh;
+    width: 76%;
+    margin: auto;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section2>div>div{
+    /* border: 2px solid green; */
+    height: inherit;
+    width:553px
+}
+#section2>div>div>div>img{
+    height: 100%;
+    width: 100%;
+}
+#section2>div>div+div{
+    display: flex;
+    align-items: center;
+}
+#section2>div>div+div>div{
+    /* border: 2px solid purple; */
+    margin-left: 100px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section2>div>div+div>div>h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+#section2>div>div+div>div>p>button{
+    padding: 14px 25px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+#section2>div>div+div>div>p>span{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 4px;
+}
+#section3{
+    /* border: 2px solid; */
+    height: 101vh;
+}
+#section3>div{
+    /* border: 2px solid red; */
+    height: 75vh;
+    width: 76%;
+    margin: auto;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section3>div>div{
+    /* border: 2px solid green; */
+    height: inherit;
+    width:553px
+}
+#section3>div>div>div>img{
+    height: 100%;
+    width: 100%;
+}
+#section3>div>div:first-child{
+    /* border: 2px solid magenta; */
+    display: flex;
+    align-items: center;
+}
+#section3>div>div:first-child>div{
+    /* border: 2px solid purple; */
+    /* margin-left: 100px; */
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#section3>div>div:first-child>div>h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+#section3>div>div:first-child>div>p>button{
+    padding: 14px 25px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+#section3>div>div:first-child>div>p>span{
+    /* border: 1px solid; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 4px;
+}
+#section3>div>div>div>p:last-child{
+    /* border: 2px solid; */
+    margin-right: 152px;
+}
+#section4{
+    /* border: 2px solid; */
+    height: 84vh;
+}
+#section4>div{
+    /* border: 2px solid red; */
+    height: 75vh;
+    width: 76%;
+    margin: auto;
+    /* margin-top: 67px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section4>div>div{
+    /* border: 2px solid green; */
+    height: inherit;
+    width:553px
+}
+#section4>div>div>div>img{
+    height: 100%;
+    width: 100%;
+}
+#section4>div>div+div{
+    display: flex;
+    /* align-items: center; */
+}
+#section4>div>div+div>div{
+    /* border: 2px solid purple; */
+    margin-left: 100px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section4>div>div+div>div>h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+#section4>div>div+div>div>button{
+    padding: 14px 25px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 292px;
+}
+#section5{
+    border: 2px solid green;
+    height: 55vh;
+}
+#section5>div{
+    border: 2px solid red;
+    height: 35vh;
+    width: 76%;
+    margin: auto;
+    margin-top: 10vh;
+}
+#section5>div>h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
